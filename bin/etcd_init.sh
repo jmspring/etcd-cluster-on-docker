@@ -158,6 +158,7 @@ start_app() {
                 fi                  
                 break
             done
+        fi
 
         ETCD_PID=""
         echo "Launching etcd into an existing cluster.  IP: $MY_IP.  Cluster: $CLUSTER"
